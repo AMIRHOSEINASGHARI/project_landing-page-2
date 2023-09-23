@@ -1,0 +1,109 @@
+/* RESET GLOBAL CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+  text-decoration: none;
+  list-style-type: none;
+}
+:root {
+  --first-color: #8b5cf6;
+  --second-color: #dc3799;
+  --third-color: rgb(94, 94, 94);
+}
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* HEADER Styles: Start */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem 0 6rem 0;
+}
+.logo img {
+  width: 150px;
+}
+ul {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+ul a {
+  color: var(--third-color);
+  letter-spacing: -0.2px;
+}
+ul .button {
+  background: var(--first-color);
+  padding: 0.6rem 1.5rem;
+  border-radius: 7px;
+  font-weight: 600;
+}
+ul .button a {
+  color: #fff;
+}
+/* HEADER Styles: END */
+
+/* MAIN (LEFT) SECTION Styles: START */
+main {
+  display: flex;
+  justify-content: space-between;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-right: 8rem;
+}
+.half-cyrcle {
+  width: 60px;
+}
+.left .text h1 {
+  color: var(--third-color);
+  font-size: 4rem;
+}
+.left .text p {
+  font-size: 14px;
+  color: var(--third-color);
+}
+.left .text h1 span {
+  color: var(--second-color);
+}
+.left .left-btn-section {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.left .left-btn-section button {
+  border: none;
+  background: var(--first-color);
+  color: white;
+  padding: 0.5rem 2.5rem;
+  font-size: 17px;
+  border-radius: 7px;
+}
+.left .left-btn-section div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.left .left-btn-section img {
+  width: 30px;
+}
+.left .left-btn-section a {
+  color: var(--third-color);
+  border-bottom: 2px solid var(--first-color);
+  font-size: 14px;
+  font-weight: 600;
+}
+/* MAIN (LEFT) SECTION Styles: END */
+
+/* MAIN (RIGHT) SECTION Styles: START */
+.right img {
+  width: 500px;
+}
+/* MAIN (RIGHT) SECTION Styles: END */
